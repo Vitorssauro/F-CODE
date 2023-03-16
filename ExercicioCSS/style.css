@@ -1,0 +1,15 @@
+.superior {
+    background: image()
+}
+
+
+.superior img{
+    margin-top: 10px;
+    height: 40px;
+    float: left
+}
+
+.superior .texto{
+    float: left;
+    text-align: justify;
+}

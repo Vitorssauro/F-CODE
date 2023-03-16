@@ -6,6 +6,9 @@ body {
     background: linear-gradient(90deg, rgba(99,51,51,1) 0%, rgba(35,11,101,1) 100%);
 }
 /*cor de fundo do body = cinza, bodyLogin = degrade*/
+#bodyContato{
+    background: #2c4355;
+}
 #menu {
     width: 100%;
     height: 80px;
@@ -38,10 +41,22 @@ body {
     color: azure;
 }
 .login {
+    margin-top: 200px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: azure;
     font-size: 2em;
 }
 .login h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login img{
+    height: 50px;
+}
+.contato{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
