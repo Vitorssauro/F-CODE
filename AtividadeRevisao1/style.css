@@ -1,0 +1,80 @@
+body{
+    background-color: #424a5f;
+    margin: 0;
+}
+
+.nav{
+    background-color: #848484;
+    width: 100%; /*o "." é usado apenas nas classes, os que não tem "." são tags*/
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    height: 70px;
+}
+
+.nav .linkMenu {
+    text-decoration: none; /*remove as decorações do texto ex: barrinha que fica embaixo do hyperlink*/
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50%;
+    color: black;
+}
+
+.nav .menu{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav .mHamburger{
+    display: none; /*Remove o item*/
+}
+
+.container {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50vh;
+    background-color: greenyellow;
+} 
+
+.container .quadrado {
+    margin: 0 auto;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    width: 23%;
+    height: 23vh;
+    background-color: aquamarine;
+}
+
+.container .quadrado1 {
+    margin: 0 auto;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    width: 23%;
+    height: 23vh;
+    background-color: rgb(255, 0, 0);
+}
+
+.container .linha1 {
+    margin: 0 auto;
+    display: flex;
+    width: 97%;
+    height: 25vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .linha2 {
+    margin: 0 auto;
+    display: flex;
+    width: 97%;
+    height: 25vh;
+    justify-content: space-around;
+    align-items: center;
+}
