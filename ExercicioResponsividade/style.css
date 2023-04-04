@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    margin: 0;
+    background-color: red;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 90%;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu .link {
+    text-decoration: none;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.hamb {
+    display: none;
+}
+
+.dev {
+    margin: 0;
+    width: 100%;
+    height: 40vh;
+    padding: 5%;
+    background-image: url(img/backPutador.jpg);
+}
+
+.dev .texto {
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    width: 40%;
+
+}
+
+@media screen and (max-width:800px) {
+    .menu {
+        display: none;
+    }
+
+    .hamb {
+        display: inline;
+    }
+}
