@@ -33,19 +33,72 @@ header img {
     display: none;
 }
 
-.dev {
+.parte1 {
     margin: 0;
     width: 100%;
-    height: 40vh;
-    padding: 5%;
+    height: 50vh;
+    padding: 0.1px;
     background-image: url(img/backPutador.jpg);
+    background-size: cover;
 }
 
-.dev .texto {
-    color: antiquewhite;
+.parte1 .titulo {
     font-family: 'Courier New', Courier, monospace;
     width: 40%;
+    margin: 80px;
+}
 
+.titulo h1 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.titulo h2 {
+    font-size: 40px;
+    color: red;
+}
+
+.titulo img {
+    width: 10%;
+}
+
+.parte2 {
+    width: 40%;
+    height: 15vh;
+    margin: 80px;
+}
+
+.parte2 h1 {
+    font-size: 70px;
+    color: bisque;
+}
+
+.parte3 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parte3 img {
+    width: 40%;
+    height: 90%;
+}
+
+.parte3 .texto {
+    width: 50%;
+    height: 100%;
+}
+
+.texto h1 {
+    color: aqua;
+    font-size: 40px;
+}
+
+.texto p {
+    color: aliceblue;
+    font-size: 15px;
 }
 
 @media screen and (max-width:800px) {
@@ -56,4 +109,51 @@ header img {
     .hamb {
         display: inline;
     }
+
+    .parte1 {
+        margin: 0;
+        padding: 1px;
+    }
+
+    .parte1 img {
+        display: none;
+    }
+
+    .parte1 .titulo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .parte1 .titulo h1 {
+        font-size: 50px;
+    }
+
+    .parte1 .titulo h2 {
+        font-size: 30px;
+    }
+
+    .parte1 hr {
+        display: none;
+    }
+
+    .parte2 {
+        width: 100%;
+    }
+
+    .parte2 h1 {
+        font-size: 40px;
+    }
+
+    .parte3 {
+        display: inline;
+    }
+
+    .parte3 img {
+        width: 100%;
+    }
+
+    .parte3 .texto {
+        width:100%;
+    }
+
 }
