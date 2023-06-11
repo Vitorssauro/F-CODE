@@ -1,9 +1,11 @@
-#reader body{
-    background: black;
-}
 
 .cards {
     display: flex;
     justify-content: space-evenly;
     margin-top: 80px;
+}
+
+.login {
+    padding-left: 20vh;
+    padding-right: 20vh;
 }
